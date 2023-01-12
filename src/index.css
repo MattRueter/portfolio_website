@@ -1,3 +1,11 @@
-body {
-  background-color:red;
+#brickWall{
+  display:grid;
+  width:100%;
+  height:100vh;
+  grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows:   5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+}
+.brickDark{
+  border:1px solid black;
+  background-color: rgb(23, 23, 69);
 }

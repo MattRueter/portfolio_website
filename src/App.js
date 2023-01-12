@@ -1,6 +1,9 @@
+import BrickWall from './BrickWall.js';
 
 function App() {
-  return <h1>HOME</h1>
+  return (
+    <BrickWall />
+  )
 }
 
 export default App;
