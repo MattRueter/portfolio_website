@@ -1,9 +1,8 @@
 import './index.css';
 
-let size = selectSize();
 function selectSize (){
 	let size =[]
-	const number = Math.floor(Math.random() * 500);
+	const number = 200;
 	for(let i = 0; i < number; i++){
 		size.push(i);
 	}
@@ -31,7 +30,7 @@ function selectClass (){
 
 export default function BrickWall (){
 	
-	const bricks = size.map((brick)=>{
+	const bricks = selectSize().map((brick)=>{
 		let key =brick;
 		return(
 			<Brick key={key} color = {selectClass()} />
