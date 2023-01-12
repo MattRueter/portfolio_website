@@ -2,7 +2,7 @@ import './index.css';
 
 function selectSize (){
 	let size =[]
-	const number = 200;
+	const number = 1496;
 	for(let i = 0; i < number; i++){
 		size.push(i);
 	}
