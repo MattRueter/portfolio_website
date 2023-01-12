@@ -5,11 +5,28 @@
   grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   grid-template-rows:   5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
-.brickDark{
+.brickDarkLong{
   border:1px solid black;
   background-color: rgb(23, 23, 69);
+  grid-column: span 2;
 }
-.brickLight{
+.brickLightLong{
   border:1px solid black;
   background-color: rgb(234, 234, 255);
+  grid-column: span 2;
+}
+.brickDarkShort{
+  border:1px solid black;
+  background-color: rgb(23, 23, 69);
+  grid-column: span 1;
+}
+.brickLightShort{
+  border:1px solid black;
+  background-color: rgb(234, 234, 255);
+  grid-column: span 1;
+}
+.brickError{
+  border:1px solid black;
+  background-color: rgb(246, 8, 8);
+  grid-column: span 1;
 }
