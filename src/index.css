@@ -29,6 +29,16 @@ body{
   background-color: rgb(234, 234, 255);
   grid-column: span 1;
 }
+.brickDarkVertical{
+  border:1px solid black;
+  background-color: rgb(23, 23, 69);
+  grid-row: span 5;
+}
+.brickLightVertical{
+  border:1px solid black;
+  background-color: rgb(234, 234, 255);
+  grid-row: span 5;
+}
 .brickError{
   border:1px solid black;
   background-color: rgb(246, 8, 8);

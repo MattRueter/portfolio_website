@@ -11,7 +11,7 @@ function selectSize (){
 
 function selectClass (){
 	let color = ""
-	const number =Math.floor(Math.random() * 20);
+	const number =Math.floor(Math.random() * 30);
 	if(number >=0 && number <=5){
 		color = "brickDarkShort"
 	}else if(number > 5 && number <=10){
@@ -20,7 +20,12 @@ function selectClass (){
 		color = "brickDarkLong"
 	}else if(number > 15 && number <=20){
 		color = "brickLightLong"
-	}else{
+	}else if(number > 20 && number <=25){
+		color = "brickDarkVertical"
+	}else if(number > 25 && number <=30){
+		color = "brickLightVertical"
+	}
+	else{
 		color ="brickError"
 		console.log(number)
 	}
