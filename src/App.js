@@ -1,8 +1,12 @@
 import BrickWall from './BrickWall.js';
+import Navbar from './Navbar.js';
 
 function App() {
   return (
-    <BrickWall />
+    <div>
+      <Navbar />
+      <BrickWall />
+    </div>
   )
 }
 
