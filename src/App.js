@@ -4,7 +4,6 @@ import Navbar from './Navbar.js';
 function App() {
   return (
     <div>
-      <Navbar />
       <BrickWall />
     </div>
   )

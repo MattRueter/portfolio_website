@@ -3,16 +3,15 @@ const navHome ={
 	flexDirection: "column",
 	alignItems: "center",
 	justifyContent: "space-evenly",
-	position: "absolute",
-	top:"25%",
-	left: "35%",
-	border:"2px solid black",
-	boxShadow: "inset 0px 0px 10px black",
+	border:"20px solid rgb(23, 23, 69)",
+	boxShadow: "inset 0px 0px 80px rgb(23, 23, 69)",
 	backgroundColor: "#3f3f6a",
 	color: "whitesmoke",
 	fontSize:"20px",
-	width:"30%",
-	height:"30%"
+	gridColumnStart: "10",
+	gridColumnEnd:"25",
+	gridRowStart: "5",
+	gridRowEnd: "15"
 
 }
 
