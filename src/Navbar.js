@@ -18,10 +18,9 @@ export const navPages ={
 	flexDirection: "column",
 	alignItems: "center",
 	justifyContent: "space-evenly",
-	border:"20px solid rgb(23, 23, 69)",
-	boxShadow: "inset 0px 0px 80px rgb(23, 23, 69)",
+	border:"1px solid rgb(23, 23, 69)",
 	backgroundColor: "white",
-	color: "whitesmoke",
+	color: "rgb(23, 23, 69)",
 	fontSize:"20px",
 }
 
