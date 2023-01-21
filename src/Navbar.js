@@ -1,4 +1,4 @@
-const navHome ={
+export const navHome ={
 	display: "flex",
 	flexDirection: "column",
 	alignItems: "center",
@@ -12,13 +12,23 @@ const navHome ={
 	gridColumnEnd:"25",
 	gridRowStart: "5",
 	gridRowEnd: "15"
-
+}
+export const navPages ={
+	display: "flex",
+	flexDirection: "column",
+	alignItems: "center",
+	justifyContent: "space-evenly",
+	border:"20px solid rgb(23, 23, 69)",
+	boxShadow: "inset 0px 0px 80px rgb(23, 23, 69)",
+	backgroundColor: "white",
+	color: "whitesmoke",
+	fontSize:"20px",
 }
 
 
-export default function Navbar(){
+export function Navbar({style}){
 	return(
-		<nav style={navHome}>
+		<nav style={style}>
 			<div>Background</div>
 			<div>Portfolio</div>
 			<div>Anti-portfolio</div>

@@ -1,5 +1,5 @@
 import './index.css';
-import Navbar from './Navbar.js'
+import {Navbar} from './Navbar.js'
 
 function selectSize (){
 	let size =[]
