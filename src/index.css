@@ -1,7 +1,10 @@
 body {
   background-color: rgb(234, 234, 255);
 }
-
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
 #brickWall {
   display: grid;
   width: 100%;

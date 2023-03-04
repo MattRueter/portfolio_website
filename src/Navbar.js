@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export const navPages ={
 	display: "flex",
@@ -14,10 +15,10 @@ export const navPages ={
 export function Navbar({className}){
 	return(
 		<nav id ={"navbar"} className={className}>
-			<div>Background</div>
-			<div>Portfolio</div>
-			<div>Anti-portfolio</div>
-			<div>Blog</div>
+			<Link to={"/background"}>Background</Link>
+			<Link to={"/portfolio"}>Portfolio</Link> 
+			<Link to={"/antiportfolio"}>Anti-portfolio</Link>
+			<Link to={"/blog"}>Blog</Link>
 		</nav>
 	)
 }
