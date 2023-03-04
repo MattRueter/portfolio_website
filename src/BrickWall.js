@@ -45,7 +45,6 @@ export default function BrickWall ({number}){
 	return (
 		<div id="brickWall">
 			<Navbar className={"navHome"} currentPage={"/"}/>
-			{bricks}
 		</div>
 	)
 }
