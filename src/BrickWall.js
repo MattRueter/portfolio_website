@@ -1,9 +1,8 @@
 import './index.css';
-import {Navbar, navHome} from './Navbar.js'
+import { Navbar } from './Navbar.js'
 
-function selectSize (){
+function selectSize (number){
 	let size =[]
-	const number = 1496;
 	for(let i = 0; i < number; i++){
 		size.push(i);
 	}
@@ -34,9 +33,9 @@ function selectClass (){
 }
 
 
-export default function BrickWall (){
+export default function BrickWall ({number}){
 	
-	const bricks = selectSize().map((brick)=>{
+	const bricks = selectSize(number).map((brick)=>{
 		let key =brick;
 		return(
 			<Brick key={key} color = {selectClass()} />
@@ -45,7 +44,7 @@ export default function BrickWall (){
 
 	return (
 		<div id="brickWall">
-			<Navbar style={navHome} />
+			<Navbar className={"navHome"} />
 			{bricks}
 		</div>
 	)

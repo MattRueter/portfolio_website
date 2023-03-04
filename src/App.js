@@ -4,7 +4,7 @@ import Navbar from './Navbar.js';
 function App() {
   return (
     <div>
-      <BrickWall />
+      <BrickWall number={"1496"} />
     </div>
   )
 }
