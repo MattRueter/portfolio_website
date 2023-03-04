@@ -1,5 +1,5 @@
 import './index.css';
-import {Navbar} from './Navbar.js'
+import {Navbar, navHome} from './Navbar.js'
 
 function selectSize (){
 	let size =[]
@@ -45,7 +45,7 @@ export default function BrickWall (){
 
 	return (
 		<div id="brickWall">
-			<Navbar />
+			<Navbar style={navHome} />
 			{bricks}
 		</div>
 	)
