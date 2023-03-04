@@ -1,6 +1,6 @@
-import { Navbar } from "./Navbar"
+import { Navbar } from "../Navbar"
 
-function App() {
+function Homepage() {
   return (
     <div id={"homePage"}>
 			<Navbar className={"navHome"} currentPage={"/"}/>
@@ -8,4 +8,4 @@ function App() {
   )
 }
 
-export default App;
+export default Homepage;

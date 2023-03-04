@@ -1,4 +1,4 @@
-import {Navbar } from './Navbar.js';
+import {Navbar } from '../Navbar.js';
 
 export default function PortfolioPage (){
 	return (
