@@ -1,11 +1,10 @@
-import BrickWall from './BrickWall.js';
-
+import { Navbar } from "./Navbar"
 
 function App() {
   return (
-    <div>
-      <BrickWall number={"1496"} />       
-    </div>
+    <div id={"homePage"}>
+			<Navbar className={"navHome"} currentPage={"/"}/>
+		</div>
   )
 }
 

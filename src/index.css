@@ -6,56 +6,13 @@ a{
   text-decoration: none;
   margin:2%;
 }
-#brickWall {
+#homePage {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-columns: repeat(33, 3%)3%;
-  grid-template-rows: repeat(80, 5%);
+  grid-template-columns: repeat(5, 25%); 
+  grid-template-rows: repeat(10,25%);
 }
-
-.brickDarkLong {
-  border: 1px solid rgb(178, 178, 236);
-  background-color: rgb(192, 192, 238);
-  grid-column: span 1;
-}
-
-.brickLightLong {
-  border: 1px solid rgb(192, 192, 238);
-  background-color: rgb(210, 210, 240);
-  grid-column: span 1;
-}
-
-.brickDarkShort {
-  border: 1px solid rgb(178, 178, 236);
-  background-color: rgb(192, 192, 238);
-  grid-column: span 1;
-}
-
-.brickLightShort {
-  border: 1px solid rgb(192, 192, 238);
-  background-color: rgb(210, 210, 240);
-  grid-column: span 1;
-}
-
-.brickDarkVertical {
-  border: 1px solid rgb(178, 178, 236);
-  background-color: rgb(192, 192, 238);
-  grid-row: span 1;
-}
-
-.brickLightVertical {
-  border: 1px solid rgb(192, 192, 238);
-  background-color: rgb(210, 210, 240);
-  grid-row: span 1;
-}
-
-.brickError {
-  border: 1px solid black;
-  background-color: rgb(246, 8, 8);
-  grid-column: span 1;
-}
-
 
 /*NAVBAR*/
 .navHome {
@@ -68,10 +25,10 @@ a{
 	background-color: #3f3f6a;
 	color: whitesmoke;
 	font-size:20px;
-	grid-column-start: 10;
-	grid-column-end:25;
-	grid-row-start: 5;
-	grid-row-end: 15;
+	grid-column-start: 2;
+	grid-column-end:4;
+	grid-row-start: 2;
+	grid-row-end: 4;
 }
 .navPages {
 	display: flex;
@@ -86,20 +43,4 @@ a{
 #contactBox{
   display:flex;
   flex-direction: column;
-}
-/*MOBILE*/
-@media only screen and (max-width: 600px) {
-  #brickWall {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-columns: 1%, 1%;
-    grid-template-rows: 1%;
-  }
-.navHome{
-  grid-column-start: 5;
-	grid-column-end: 30;
-  grid-row-start: 10;
-  grid-row-end:55;
-}
 }
