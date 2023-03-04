@@ -1,9 +1,10 @@
 body {
-  background-color: rgb(234, 234, 255);
+  background-color: rgb(210, 210, 240);
 }
 a{
   color: whitesmoke;
   text-decoration: none;
+  margin:2%;
 }
 #brickWall {
   display: grid;
@@ -72,6 +73,20 @@ a{
 	grid-row-start: 5;
 	grid-row-end: 15;
 }
+.navPages {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+  padding:1%;
+	border: 1px solid rgb(23, 23, 69);
+  background-color: #3f3f6a;
+	font-size:xx-large;
+}
+#contactBox{
+  display:flex;
+  flex-direction: column;
+}
 /*MOBILE*/
 @media only screen and (max-width: 600px) {
   #brickWall {
@@ -79,10 +94,12 @@ a{
     width: 100%;
     height: 100vh;
     grid-template-columns: 1%, 1%;
-    grid-template-rows: 1%, 1%;
+    grid-template-rows: 1%;
   }
 .navHome{
   grid-column-start: 5;
 	grid-column-end: 30;
+  grid-row-start: 10;
+  grid-row-end:55;
 }
 }

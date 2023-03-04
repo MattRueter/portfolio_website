@@ -1,24 +1,27 @@
 import { Link } from "react-router-dom";
 
-export const navPages ={
-	display: "flex",
-	flexDirection: "column",
-	alignItems: "center",
-	justifyContent: "space-evenly",
-	border:"1px solid rgb(23, 23, 69)",
-	backgroundColor: "white",
-	color: "rgb(23, 23, 69)",
-	fontSize:"20px",
-}
+const Linkslibrary = [ 
+	"/", 
+	"/background", 
+	"/portfolio", 
+	"/antiportfolio", 
+	"/blog"
+];
 
-
-export function Navbar({className}){
+export function Navbar({className, currentPage}){
+	const pageLinks = Linkslibrary.filter(link => link !==currentPage);
+	const links = pageLinks.map(link =>{
+		return(
+			<Link to={link}>{link}</Link>
+		)
+	});
 	return(
 		<nav id ={"navbar"} className={className}>
-			<Link to={"/background"}>Background</Link>
-			<Link to={"/portfolio"}>Portfolio</Link> 
-			<Link to={"/antiportfolio"}>Anti-portfolio</Link>
-			<Link to={"/blog"}>Blog</Link>
+			{links}
+			<div id={"contactBox"}>
+				<a href={"https://github.com/MattRueter"}>GITHUB</a>
+				<a href={"https://www.linkedin.com/in/matthew-rueter-19824340/en?trk=people-guest_people_search-card"}>LinkedIn</a>
+			</div>
 		</nav>
 	)
 }
