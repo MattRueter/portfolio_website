@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 
 const Linkslibrary = [ 
-	"/", 
-	"/background", 
-	"/portfolio", 
-	"/antiportfolio", 
-	"/blog"
+	{route: "/", name:"Home" },
+	{route: "/background", name:"Background" },
+	{route: "/portfolio", name:"Portfolio" },
+	{route: "/antiportfolio", name:"Anti-portfolio" },
+	{route: "/blog", name:"Blog" },
 ];
 
 export function Navbar({className, currentPage}){
-	const pageLinks = Linkslibrary.filter(link => link !==currentPage);
-	const links = pageLinks.map(link =>{
+	const pageLinks = Linkslibrary.filter(item => item.route !==currentPage);
+	const links = pageLinks.map((link,index) =>{
 		return(
-			<Link to={link}>{link}</Link>
+			<Link to={link.route} key={index}>{link.name}</Link>
 		)
 	});
 	return(
