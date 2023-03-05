@@ -1,5 +1,4 @@
-import {Navbar } from '../Navbar.js';
-
+import { Navbar } from "../Components/Navbar"
 export default function BlogPage (){
 	return (
 		<div>
