@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 const Linkslibrary = [ 
 	{route: "/", name:"Home" },
 	{route: "/background", name:"Background" },
@@ -19,7 +20,7 @@ export function Navbar({className, currentPage}){
 		<nav id ={"navbar"} className={className}>
 			{links}
 			<div id={"contactBox"}>
-				<a href={"https://github.com/MattRueter"}>GITHUB</a>
+				<a href={"https://github.com/MattRueter"}>Github</a>
 				<a href={"https://www.linkedin.com/in/matthew-rueter-19824340/en?trk=people-guest_people_search-card"}>LinkedIn</a>
 			</div>
 		</nav>
