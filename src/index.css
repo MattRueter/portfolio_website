@@ -71,11 +71,24 @@ a {
 }
 
 .card {
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-start;
 	border-radius: 10px;
 	background-color: rgb(245, 245, 245);
 	box-shadow: 1px 1px 5px black;
 	margin: 1%;
 	padding: 5%;
+}
+.card >h1{
+	font-size: medium;
+}
+.card > *p{
+	font-size: 2rem;
+}
+.cardImage{
+	height:15%;
+	width:15%;
 }
 
 /*MOBILE*/
