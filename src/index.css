@@ -1,53 +1,58 @@
 body {
-  background-color: rgb(234, 234, 255);
+  background-image: url("./websiteBackground.png");
 }
-
-#brickWall {
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  margin:2%;
+}
+#homePage {
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-columns: repeat(33, 3%)3%;
-  grid-template-rows: repeat(80, 5%);
+  grid-template-columns: repeat(5, 25%); 
+  grid-template-rows: repeat(10,25%);
 }
 
-.brickDarkLong {
-  border: 1px solid black;
-  background-color: rgb(23, 23, 69);
-  grid-column: span 1;
+/*NAVBAR*/
+.navHome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	border:20px solid rgb(23, 23, 69);
+	box-shadow: inset 0px 0px 80px rgb(23, 23, 69);
+	background-color: #3f3f6a;
+	color: whitesmoke;
+	font-size:20px;
+	grid-column-start: 2;
+	grid-column-end:4;
+	grid-row-start: 2;
+	grid-row-end: 4;
 }
-
-.brickLightLong {
-  border: 1px solid black;
-  background-color: rgb(234, 234, 255);
-  grid-column: span 1;
+.navPages {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width:100%;
+  	padding:1%;
+	border: 1px solid rgb(23, 23, 69);
+  	background-color: #3f3f6a;
+	font-size:xx-large;
 }
-
-.brickDarkShort {
-  border: 1px solid black;
-  background-color: rgb(23, 23, 69);
-  grid-column: span 1;
+.iconBoxPages {
+	display:flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+ 	align-items: center;
+	width:10%;
+	height:8rem;
 }
-
-.brickLightShort {
-  border: 1px solid black;
-  background-color: rgb(234, 234, 255);
-  grid-column: span 1;
-}
-
-.brickDarkVertical {
-  border: 1px solid black;
-  background-color: rgb(23, 23, 69);
-  grid-row: span 1;
-}
-
-.brickLightVertical {
-  border: 1px solid black;
-  background-color: rgb(234, 234, 255);
-  grid-row: span 1;
-}
-
-.brickError {
-  border: 1px solid black;
-  background-color: rgb(246, 8, 8);
-  grid-column: span 1;
+.iconBoxHome{
+	display:flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	align-items: center;
+	width:8rem;
 }
