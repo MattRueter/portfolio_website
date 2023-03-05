@@ -1,17 +1,19 @@
 body {
-  background-image: url("./websiteBackground.png");
+	background-image: url("./websiteBackground.png");
 }
-a{
-  color: whitesmoke;
-  text-decoration: none;
-  margin:2%;
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+	margin: 2%;
 }
+
 #homePage {
-  display: grid;
-  width: 100%;
-  height: 100vh;
-  grid-template-columns: repeat(5, 25%); 
-  grid-template-rows: repeat(10,25%);
+	display: grid;
+	width: 100%;
+	height: 100vh;
+	grid-template-columns: repeat(5, 25%);
+	grid-template-rows: repeat(10, 25%);
 }
 
 /*NAVBAR*/
@@ -20,39 +22,70 @@ a{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	border:20px solid rgb(23, 23, 69);
+	border: 20px solid rgb(23, 23, 69);
 	box-shadow: inset 0px 0px 80px rgb(23, 23, 69);
 	background-color: #3f3f6a;
 	color: whitesmoke;
-	font-size:20px;
+	font-size: 20px;
 	grid-column-start: 2;
-	grid-column-end:4;
+	grid-column-end: 4;
 	grid-row-start: 2;
 	grid-row-end: 4;
 }
+
 .navPages {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
-	width:100%;
-  	padding:1%;
+	padding: 1%;
 	border: 1px solid rgb(23, 23, 69);
-  	background-color: #3f3f6a;
-	font-size:xx-large;
+	background-color: #3f3f6a;
+	font-size: xx-large;
 }
+
 .iconBoxPages {
-	display:flex;
-  	flex-direction: column;
-  	justify-content: space-between;
- 	align-items: center;
-	width:10%;
-	height:8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 10%;
+	height: 8rem;
 }
-.iconBoxHome{
-	display:flex;
-  	flex-direction: row;
-  	justify-content: space-between;
-  	align-items: center;
-	width:8rem;
+
+.iconBoxHome {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 8rem;
+}
+
+/*INFO CARDS*/
+.CardContainer {
+	display: grid;
+	width: 100%;
+	height: 100vh;
+	grid-template-columns: repeat(20, 5%);
+	grid-template-rows: repeat(20, 5%);
+}
+
+.card {
+	border-radius: 10px;
+	background-color: rgb(245, 245, 245);
+	box-shadow: 1px 1px 5px black;
+	margin: 1%;
+	padding: 5%;
+}
+
+/*MOBILE*/
+@media screen and (max-width:800px){
+	.CardContainer{
+		display:flex;
+		flex-direction:column;
+	}
+	.CardContainer>*{
+		margin:5%;
+		
+	}
 }
