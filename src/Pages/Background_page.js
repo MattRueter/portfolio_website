@@ -21,12 +21,12 @@ const previousInfo =`Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 const cardStyles =[
 	{
 	gridColumn: "2 / span 11", 
-	gridRow: "2 / span 7",
+	gridRow: "2 / span 9",
 	fontSize:"2rem",
 	},
 	{
 	gridColumn: "4 / span 13", 
-	gridRow: "9 / span 7",
+	gridRow: "11 / span 8",
 	fontSize:"2rem",
 	}
 ]
