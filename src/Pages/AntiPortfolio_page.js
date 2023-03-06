@@ -38,7 +38,7 @@ export default function AntiPortfolioPage (){
 	});
 	return (
 		<div>
-			<Navbar className={"navPages"} currentPage={"/antiportfolio"} iconBoxClass={"iconBoxPages"}/>
+			<Navbar className={"navPages"} currentPage={"/antiportfolio"} iconBoxClass={"iconBoxPages"} navBarLinksClass={"linksBoxPages"}/>
 			<main className={"CardContainer"}>
 				<InfoCard id={infoCard[0].id} cardContent={infoCard[0].description}/>
 				{projects}

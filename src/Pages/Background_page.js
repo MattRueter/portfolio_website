@@ -38,7 +38,7 @@ export default function BackgroundPage (){
 
 	return (
 		<div>
-			<Navbar className={"navPages"} currentPage={"/background"} iconBoxClass={"iconBoxPages"}/>
+			<Navbar className={"navPages"} currentPage={"/background"} iconBoxClass={"iconBoxPages"} navBarLinksClass={"linksBoxPages"}/>
 			<main className={"CardContainer"}>
 				{infocards}
 			</main>

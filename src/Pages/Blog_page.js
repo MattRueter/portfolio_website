@@ -30,7 +30,7 @@ export default function BlogPage (){
 	});
 	return (
 		<div>
-			<Navbar className={"navPages"} currentPage={"/blog"} iconBoxClass={"iconBoxPages"}/>
+			<Navbar className={"navPages"} currentPage={"/blog"} iconBoxClass={"iconBoxPages"} navBarLinksClass={"linksBoxPages"}/>
 			<main className={"CardContainer"}>
 				{blogs}
 			</main>

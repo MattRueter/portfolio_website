@@ -8,7 +8,7 @@ const Linkslibrary = [
 	{ route: "/blog", name: "Blog" },
 ];
 
-export function Navbar({ className, currentPage, iconBoxClass }) {
+export function Navbar({ className, currentPage, iconBoxClass, navBarLinksClass }) {
 	const pageLinks = Linkslibrary.filter(item => item.route !== currentPage);
 	const links = pageLinks.map((link, index) => {
 		return (
@@ -18,7 +18,9 @@ export function Navbar({ className, currentPage, iconBoxClass }) {
 
 	return (
 		<nav id={"navbar"} className={className}>
-			{links}
+			<div className={navBarLinksClass}>
+				{links}		
+			</div>
 			<div className={iconBoxClass}>
 				<a href={"https://github.com/MattRueter"}>
 				<svg height="45" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="45" data-view-component="true" className="octicon octicon-mark-github v-align-middle">
