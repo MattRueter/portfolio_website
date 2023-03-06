@@ -58,22 +58,19 @@ const projectList =[
 	},
 ]
 
-
-
-
 export default function PortfolioPage() {
 	const projects = projectList.map((item,index) =>{
 		return(
-			<ProjectCard cardContent={item} key={item.index}/>
+			<ProjectCard cardContent={item} key={index}/>
 		)
 	});
 	return (
 		<div>
-			<Navbar className={"navPages"} currentPage={"/portfolio"} iconBoxClass={"iconBoxPages"} />
+			<Navbar className={"navPages"} currentPage={"/portfolio"} iconBoxClass={"iconBoxPages"} />						
 			<main className={"CardContainer"}>
 				<InfoCard  id={infoCard[0].id} cardContent={infoCard[0].description}/>
 				{projects}
-			</main>
+			</main>			
 		</div>
 	)
 }
