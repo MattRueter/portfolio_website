@@ -1,6 +1,7 @@
 import { Navbar } from "../Components/Navbar"
 import { ProjectCard } from "../Components/Card";
 import { InfoCard } from "../Components/Card";
+import { IconBox } from "../Components/IconBox";
 
 const infoCard =[
 	{
@@ -70,6 +71,7 @@ export default function PortfolioPage() {
 			<main className={"CardContainer"}>
 				<InfoCard  id={infoCard[0].id} cardContent={infoCard[0].description}/>
 				{projects}
+				<IconBox id={"iconBox0"}/>
 			</main>			
 		</div>
 	)
