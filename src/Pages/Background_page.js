@@ -18,8 +18,8 @@ const cardContent = [
 		codeLink:"",
 		cardStyles:{ 
 			gridColumn: "2 / span 11", 
-			gridRow: "2 / span 9",
-			fontSize:"2rem",			
+			gridRow: "2 / span 8",
+			fontSize:"x-large",			
 		}
 	},
 	{
@@ -37,11 +37,24 @@ const cardContent = [
 		codeLink:"",
 		cardStyles:{ 
 			gridColumn: "4 / span 13", 
-			gridRow: "11 / span 8",
-			fontSize:"2rem",
+			gridRow: "10 / span 7",
+			fontSize:"x-large",
 		}
 	},
-
+	{
+		projectName:"",
+		image:"",
+		description:`Tools I've learned and continue to learn. 
+		HTML CSS JS REACT REDUX NODE EXPRESS MONGOdb JEST GIT `,
+		siteLink: "",
+		codeLink:"",
+		cardStyles:{ 
+			backgroundColor: "#9c9cb8",
+			gridColumn: "2 / span 18", 
+			gridRow: "18 / span 3",
+			fontSize:"x-large",
+		}
+	},
 ]
 
 export default function BackgroundPage (){
@@ -51,6 +64,7 @@ export default function BackgroundPage (){
 			<main className={"CardContainer"}>
 				<Card cardContent={cardContent[0]}/>
 				<Card cardContent={cardContent[1]}/>
+				<Card cardContent={cardContent[2]}/>
 			</main>
 		</div>
 	)

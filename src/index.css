@@ -93,10 +93,13 @@ a {
 
 /*MOBILE*/
 @media screen and (max-width:800px){
+
 	.CardContainer{
 		display:flex;
 		flex-direction:column;
 	}
+	
+
 	.CardContainer>*{
 		margin:5%;
 		
