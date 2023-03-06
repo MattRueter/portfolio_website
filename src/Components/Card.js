@@ -1,8 +1,9 @@
 
 
 export const ProjectCard = ({cardContent}) => {
+
 	return(
-		<div className={"card"} style={cardContent.cardStyles}>
+		<div className={"card"} id={`port${cardContent.id}`}>
 			<h1>{cardContent.projectName}</h1>
 			<div className={"cardImage"}>{cardContent.image}</div>
 			<p>{cardContent.description}</p>
@@ -13,7 +14,7 @@ export const ProjectCard = ({cardContent}) => {
 }
 export const InfoCard = ({id,cardContent}) => {
 	return(
-		<div className={"card"} id={`backGround${id}`}>
+		<div className={"card"} id={id}>
 			{cardContent}
 		</div>
 	)

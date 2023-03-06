@@ -4,7 +4,7 @@ import { InfoCard } from "../Components/Card";
 
 const cardContent = [
 	{
-		id:"0",
+		id:"background0",
 		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 		Duis nec nisi dictum, tincidunt eros in, tempor mi. 
 		Donec in vulputate neque, eu accumsan ante. Fusce eu ex vitae lectus lacinia commodo eget faucibus turpis. 
@@ -16,7 +16,7 @@ const cardContent = [
 
 	},
 	{
-		id:"1",
+		id:"background1",
 		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 		Duis nec nisi dictum, tincidunt eros in, tempor mi. 
 		Donec in vulputate neque, eu accumsan ante. Fusce eu ex vitae lectus lacinia commodo eget faucibus turpis. 
