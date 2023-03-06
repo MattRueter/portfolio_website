@@ -1,5 +1,5 @@
 import { Navbar } from "../Components/Navbar"
-import { Card } from "../Components/Card";
+import { ProjectCard } from "../Components/Card";
 
 const cardContent = [
 	{
@@ -61,10 +61,10 @@ export default function AntiPortfolioPage (){
 		<div>
 			<Navbar className={"navPages"} currentPage={"/antiportfolio"} iconBoxClass={"iconBoxPages"}/>
 			<main className={"CardContainer"}>
-				<Card cardContent={cardContent[0]}/>
-				<Card cardContent={cardContent[1]}/>
-				<Card cardContent={cardContent[2]}/>
-				<Card cardContent={cardContent[3]}/>
+				<ProjectCard cardContent={cardContent[0]}/>
+				<ProjectCard cardContent={cardContent[1]}/>
+				<ProjectCard cardContent={cardContent[2]}/>
+				<ProjectCard cardContent={cardContent[3]}/>
 			</main>
 		</div>
 	)

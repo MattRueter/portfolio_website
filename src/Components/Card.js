@@ -1,6 +1,6 @@
 
 
-export const Card = ({cardContent}) => {
+export const ProjectCard = ({cardContent}) => {
 	return(
 		<div className={"card"} style={cardContent.cardStyles}>
 			<h1>{cardContent.projectName}</h1>
