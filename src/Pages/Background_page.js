@@ -1,11 +1,10 @@
 import { Navbar } from "../Components/Navbar"
-import { Card } from "../Components/Card";
+import { InfoCard } from "../Components/Card";
 
 
 const cardContent = [
 	{
-		projectName:"",
-		image:"",
+		id:"background0",
 		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 		Duis nec nisi dictum, tincidunt eros in, tempor mi. 
 		Donec in vulputate neque, eu accumsan ante. Fusce eu ex vitae lectus lacinia commodo eget faucibus turpis. 
@@ -14,17 +13,10 @@ const cardContent = [
 		Nunc non purus ac elit maximus iaculis viverra sit amet libero. 
 		Sed sed porttitor ante. Mauris accumsan est eget elit vehicula, in finibus sem rhoncus. 
 		Aliquam erat volutpat.`,
-		siteLink: "",
-		codeLink:"",
-		cardStyles:{ 
-			gridColumn: "2 / span 11", 
-			gridRow: "2 / span 9",
-			fontSize:"2rem",			
-		}
+
 	},
 	{
-		projectName:"",
-		image:"",
+		id:"background1",
 		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 		Duis nec nisi dictum, tincidunt eros in, tempor mi. 
 		Donec in vulputate neque, eu accumsan ante. Fusce eu ex vitae lectus lacinia commodo eget faucibus turpis. 
@@ -33,24 +25,22 @@ const cardContent = [
 		Nunc non purus ac elit maximus iaculis viverra sit amet libero. 
 		Sed sed porttitor ante. Mauris accumsan est eget elit vehicula, in finibus sem rhoncus. 
 		Aliquam erat volutpat.`,
-		siteLink: "",
-		codeLink:"",
-		cardStyles:{ 
-			gridColumn: "4 / span 13", 
-			gridRow: "11 / span 8",
-			fontSize:"2rem",
-		}
-	},
+	}
 
 ]
 
 export default function BackgroundPage (){
+	const infocards = cardContent.map(item=>{
+		return(
+			<InfoCard id={item.id}cardContent={item.description} key={item.id}/>
+		)	
+	});
+
 	return (
 		<div>
-			<Navbar className={"navPages"} currentPage={"/background"} iconBoxClass={"iconBoxPages"}/>
+			<Navbar className={"navPages"} currentPage={"/background"} iconBoxClass={"iconBoxPages"} navBarLinksClass={"linksBoxPages"}/>
 			<main className={"CardContainer"}>
-				<Card cardContent={cardContent[0]}/>
-				<Card cardContent={cardContent[1]}/>
+				{infocards}
 			</main>
 		</div>
 	)
