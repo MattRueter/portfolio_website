@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Linkslibrary = [
 	{ route: "/", name: "Home" },
-	{ route: "/background", name: "Background" },
+	{ route: "/aboutme", name: "About Me" },
 	{ route: "/portfolio", name: "Portfolio" },
 	{ route: "/antiportfolio", name: "Anti-portfolio" },
 	{ route: "/blog", name: "Blog" },
