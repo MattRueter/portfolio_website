@@ -6,8 +6,8 @@ import { IconBox } from "../Components/IconBox";
 const infoCard =[
 	{
 		id:"portfolioInfo",
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
+		description: `These projects represent the latest in my development. 
+			I'm still adding to them as my skills evolve and have tried to build them in a way which scales easily. `,
 	}
 ]
 
@@ -15,45 +15,36 @@ const projectList =[
 	{
 		id:"0",
 		projectName:"ShopIt",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
+		description:`Genre: E-commerce`,
 		siteLink: "url here",
 		codeLink:"url here",
 	},
 	{
 		id:"1",
 		projectName:"Idiom",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+		description:`Genre: Education, Foreign Languages, Games`,
+		siteLink: "https://mattrueter.github.io/IDIOM/",
+		codeLink:"https://github.com/MattRueter/IDIOM",
 	},
 	{
 		id:"2",
 		projectName:"Nearby Markets",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
+		description:`Genre: E-commerce`,
 		siteLink: "url here",
 		codeLink:"url here",
 	},
 	{
 		id:"3",
 		projectName:"Lyst",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
+
+		description:`Genre: Productivity App`,
 		siteLink: "url here",
 		codeLink:"url here",
 	},
 	{
 		id:"4",
 		projectName:"This site",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
+		description:`Genre: Static site`,
 		siteLink: "url here",
 		codeLink:"url here",
 	},
