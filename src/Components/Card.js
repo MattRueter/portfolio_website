@@ -11,3 +11,10 @@ export const Card = ({cardContent}) => {
 		</div>
 	)
 }
+export const InfoCard = ({id,cardContent}) => {
+	return(
+		<div className={"card"} id={`backGround${id}`}>
+			{cardContent}
+		</div>
+	)
+}
