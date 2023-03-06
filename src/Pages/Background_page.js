@@ -1,13 +1,56 @@
-import {Navbar } from '../Navbar.js';
+import { Navbar } from "../Components/Navbar"
+import { Card } from "../Components/Card";
+
+
+const cardContent = [
+	{
+		projectName:"",
+		image:"",
+		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Duis nec nisi dictum, tincidunt eros in, tempor mi. 
+		Donec in vulputate neque, eu accumsan ante. Fusce eu ex vitae lectus lacinia commodo eget faucibus turpis. 
+		Duis posuere orci id egestas elementum. 
+		Cras congue nisi eu dolor tristique, vel gravida purus auctor. 
+		Nunc non purus ac elit maximus iaculis viverra sit amet libero. 
+		Sed sed porttitor ante. Mauris accumsan est eget elit vehicula, in finibus sem rhoncus. 
+		Aliquam erat volutpat.`,
+		siteLink: "",
+		codeLink:"",
+		cardStyles:{ 
+			gridColumn: "2 / span 11", 
+			gridRow: "2 / span 9",
+			fontSize:"2rem",			
+		}
+	},
+	{
+		projectName:"",
+		image:"",
+		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Duis nec nisi dictum, tincidunt eros in, tempor mi. 
+		Donec in vulputate neque, eu accumsan ante. Fusce eu ex vitae lectus lacinia commodo eget faucibus turpis. 
+		Duis posuere orci id egestas elementum. 
+		Cras congue nisi eu dolor tristique, vel gravida purus auctor. 
+		Nunc non purus ac elit maximus iaculis viverra sit amet libero. 
+		Sed sed porttitor ante. Mauris accumsan est eget elit vehicula, in finibus sem rhoncus. 
+		Aliquam erat volutpat.`,
+		siteLink: "",
+		codeLink:"",
+		cardStyles:{ 
+			gridColumn: "4 / span 13", 
+			gridRow: "11 / span 8",
+			fontSize:"2rem",
+		}
+	},
+
+]
 
 export default function BackgroundPage (){
 	return (
 		<div>
 			<Navbar className={"navPages"} currentPage={"/background"} iconBoxClass={"iconBoxPages"}/>
-			<main>
-				<h1>A little about me.</h1>
-				<h2>lalalalalalalalalala</h2>
-				<p>And some more details if anyone is interested.</p>
+			<main className={"CardContainer"}>
+				<Card cardContent={cardContent[0]}/>
+				<Card cardContent={cardContent[1]}/>
 			</main>
 		</div>
 	)
