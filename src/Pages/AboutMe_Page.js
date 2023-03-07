@@ -16,8 +16,8 @@ const cardContent = [
 	},
 	{
 		id:"background1",
-		description:`Previously I had been working for just over 13 years at a language academy in Spain. I taught English to all ages and at all levels and 
-		eventually took on various management roles including ultimately Assistant Director of Studies. This role required being involved in most aspects of the business
+		description:`Previously I had been working at a language academy in Spain. I taught English to all ages and at all levels and 
+		eventually took on various management roles including, ultimately, Assistant Director of Studies. This role required being involved in most aspects of the business
 		and considering how decisions might affect all stake-holders.`
 	},
 	{
@@ -37,11 +37,11 @@ const cardContent = [
 ]
 const titleList = [
 	{
-		id:"title1",
+		id:"title0",
 		title: "Background"
 	},
 	{
-		id:"title0",
+		id:"title1",
 		title:"What I'm Looking For:"
 	},
 	{
@@ -73,6 +73,7 @@ export default function BackgroundPage (){
 				{infocards[2]}
 				{titles[2]}
 				{infocards[3]}
+			<div id={"pusher"}></div>
 			</main>
 		</div>
 	)
