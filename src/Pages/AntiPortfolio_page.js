@@ -14,17 +14,17 @@ const projectList = [
 	
 	{
 		id:"5",
-		projectName:"Guess -who",
+		projectName:"Guess Who",
 		description:`Genre: game`,
-		siteLink: "url here",
-		codeLink:"url here",
+		siteLink: "https://mattrueter.github.io/guess-who/",
+		codeLink:"https://github.com/MattRueter/guess-who",
 	},
 	{
 		id:"6",
 		projectName:"Library",
 		description:`Genre: personal organization tool`,
-		siteLink: "url here",
-		codeLink:"url here",
+		siteLink: "https://mattrueter.github.io/library/",
+		codeLink:"https://github.com/MattRueter/library",
 	},
 ]
 

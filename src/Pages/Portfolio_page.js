@@ -16,8 +16,8 @@ const projectList =[
 		id:"0",
 		projectName:"ShopIt",
 		description:`Genre: E-commerce`,
-		siteLink: "url here",
-		codeLink:"url here",
+		siteLink: "https://MattRueter.github.io/Shop-It/",
+		codeLink:"https://github.com/MattRueter/Shop-It",
 	},
 	{
 		id:"1",
@@ -30,23 +30,23 @@ const projectList =[
 		id:"2",
 		projectName:"Nearby Markets",
 		description:`Genre: E-commerce`,
-		siteLink: "url here",
-		codeLink:"url here",
+		siteLink: "https://v42-geckos-20.vercel.app",
+		codeLink:"https://github.com/chingu-voyages/v42-geckos-team-20",
 	},
 	{
 		id:"3",
 		projectName:"Lyst",
 
 		description:`Genre: Productivity App`,
-		siteLink: "url here",
-		codeLink:"url here",
+		siteLink: "",
+		codeLink:"https://github.com/MattRueter/LyST",
 	},
 	{
 		id:"4",
 		projectName:"This site",
 		description:`Genre: Static site`,
-		siteLink: "url here",
-		codeLink:"url here",
+		siteLink: "",
+		codeLink:"https://github.com/MattRueter/portfolio_website",
 	},
 ]
 
