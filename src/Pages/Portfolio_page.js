@@ -6,8 +6,8 @@ import { IconBox } from "../Components/IconBox";
 const infoCard =[
 	{
 		id:"portfolioInfo",
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
+		description: `These projects represent the latest in my development. 
+			I'm still adding to them as my skills evolve and have tried to build them in a way which scales easily. `,
 	}
 ]
 
@@ -15,47 +15,38 @@ const projectList =[
 	{
 		id:"0",
 		projectName:"ShopIt",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+		description:`Genre: E-commerce`,
+		siteLink: "https://MattRueter.github.io/Shop-It/",
+		codeLink:"https://github.com/MattRueter/Shop-It",
 	},
 	{
 		id:"1",
 		projectName:"Idiom",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+		description:`Genre: Education, Foreign Languages, Games`,
+		siteLink: "https://mattrueter.github.io/IDIOM/",
+		codeLink:"https://github.com/MattRueter/IDIOM",
 	},
 	{
 		id:"2",
 		projectName:"Nearby Markets",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+		description:`Genre: E-commerce`,
+		siteLink: "https://v42-geckos-20.vercel.app",
+		codeLink:"https://github.com/chingu-voyages/v42-geckos-team-20",
 	},
 	{
 		id:"3",
 		projectName:"Lyst",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+
+		description:`Genre: Productivity App`,
+		siteLink: "",
+		codeLink:"https://github.com/MattRueter/LyST",
 	},
 	{
 		id:"4",
 		projectName:"This site",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+		description:`Genre: Static site`,
+		siteLink: "",
+		codeLink:"https://github.com/MattRueter/portfolio_website",
 	},
 ]
 

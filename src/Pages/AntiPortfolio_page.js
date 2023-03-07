@@ -4,29 +4,27 @@ import { InfoCard, ProjectCard } from "../Components/Card";
 const infoCard =[
 	{
 		id:"antiPortfolioInfo",
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
+		description: `I've included this as I find it edifying to reflect on earlier projects and understand why they were 
+		good or bad and how they could be improved. These two projects were both for different reasons two I really enjoyed 
+		working on, however when I look at them now they make me cringe! But working on them set me up to better understand and 
+		appreciate subsequent concepts in programming and specifically how Javascript works.`,
 	}
 ]
 const projectList = [
 	
 	{
 		id:"5",
-		projectName:"Guess -who",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+		projectName:"Guess Who",
+		description:`Genre: game`,
+		siteLink: "https://mattrueter.github.io/guess-who/",
+		codeLink:"https://github.com/MattRueter/guess-who",
 	},
 	{
 		id:"6",
 		projectName:"Library",
-		image:"an image here",
-		description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Duis nec nisi dictum, tincidunt eros in, tempor mi.`,
-		siteLink: "url here",
-		codeLink:"url here",
+		description:`Genre: personal organization tool`,
+		siteLink: "https://mattrueter.github.io/library/",
+		codeLink:"https://github.com/MattRueter/library",
 	},
 ]
 
