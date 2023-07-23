@@ -6,8 +6,9 @@ import { IconBox } from "../Components/IconBox";
 const infoCard =[
 	{
 		id:"portfolioInfo",
-		description: `These projects represent the latest in my development. 
-			I'm still adding to them as my skills evolve and have tried to build them in a way which scales easily. `,
+		description: `Idiom is what I am currently working on and represents 
+		the latest in my development. The others are a bit dated and have their 
+		weak points but still demonstrate the evolution of my skills`,
 	}
 ]
 
@@ -35,17 +36,17 @@ const projectList =[
 	},
 	{
 		id:"3",
-		projectName:"Lyst",
+		projectName:"Chingu Trivia",
 
-		description:`Genre: Productivity App`,
-		siteLink: "",
-		codeLink:"https://github.com/MattRueter/LyST",
+		description:`Quiz`,
+		siteLink: "https://mattrueter.github.io/Chingu_Trivia/",
+		codeLink:"https://github.com/MattRueter/Chingu_Trivia",
 	},
 	{
 		id:"4",
 		projectName:"This site",
 		description:`Genre: Static site`,
-		siteLink: "",
+		siteLink: "https://mattrueter.github.io/portfolio_website/",
 		codeLink:"https://github.com/MattRueter/portfolio_website",
 	},
 ]

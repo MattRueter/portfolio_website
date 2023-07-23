@@ -9,7 +9,7 @@ const cardContent = [
 		description:`My name is Matt Rueter and I am a self-taught developer. 
 			I began retraining in web development at the start of June 2021 after stumbling on the idea one day. I really took to it and so decided to pursue learning more.
 			I enjoy the problem solving it involves and have noticed that the process of turning the once mysterious looking code into
-			something understandable is similar to learning a foreign language, which is something else I enjoy doing. I'm eager and looking forward to 
+			something understandable is somewhat similar to learning a foreign language, which is something else I enjoy doing. I'm eager and looking forward to 
 			turning this into a full-time job sometime soon.`,
 
 
@@ -22,15 +22,14 @@ const cardContent = [
 	},
 	{
 		id:"goals",
-		description:`I'm hoping to find work as a juniour developer in a company which will provide me with opportunities to
-		learn even more tools and skills. In return I believe I currently have the skills and discipline to contribute actively from day 
+		description:`I'm hoping to find work as a junior developer in a company which will provide me with opportunities to
+		learn even more tools and skills. In return, I believe I currently have the skills and discipline to contribute actively from day 
 		one in some area of the codebase. I'd ideally like to combine my interest in languages with development, possibly working on language learning apps
 		or other educational tools. But really I enjoy working on almost anything.`
 	},
 	{
 		id:"skills",
-		description:`I feel I currently have the knowledge and skill level in client-side development to contribute practically to a project. One of the biggest things I've learnt on the course I've been following
-		is how to learn and along with that to embrace running up against knowledge gaps and working through them. I am currently learning server-side
+		description:`I feel I currently have the knowledge and skill level in client-side development to contribute practically to a project. I am currently learning server-side
 		development and hope within a short period of time to be much more comfortable working on the back-end. My previous experience, though not related to development, is rich with
 		transferable skills which when combined with my programming abilities would make me a useful asset to a team. `
 	}
