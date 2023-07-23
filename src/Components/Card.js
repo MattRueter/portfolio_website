@@ -18,7 +18,7 @@ export const InfoCard = ({id,cardContent}) => {
 		</div>
 	)
 }
-export const BlogCard = ({id,cardContent}) => {	
+export const BlogCard = ({id,cardContent, link}) => {	
 	const openBlog = () => {
 		console.log("opening article.")
 	};
@@ -26,6 +26,7 @@ export const BlogCard = ({id,cardContent}) => {
 		<div className={"card"} id={id} onClick={openBlog}>
 			<h1>{cardContent.title}</h1>
 			<p>{cardContent.description}</p>
+			<a href={link}>Go to article</a>
 		</div>
 	)
 }
